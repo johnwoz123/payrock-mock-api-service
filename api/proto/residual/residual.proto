@@ -1,0 +1,8 @@
+syntax = "proto3"
+
+package residual;
+
+service Residual {
+    rpc GetDemoResidual() returns {DemoResponse}{};
+     
+}

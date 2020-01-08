@@ -1,0 +1,35 @@
+[
+  {
+    "rep_number": "1337",
+    "rep_name": "Baby Yoda",
+    "mid": "403903123411111",
+    "total_residual_amount": "1337.357",
+    "total_residual_volume": "1337.357",
+    "total_residual_billables": "1337.357",
+    "residual_billables": [
+      {
+        "billable": "Auth Misuse",
+        "revenue": "1337.357",
+        "buyrate": "1337.357",
+        "count": "42",
+        "buyrate_cost": "1337.357",
+        "split": "42",
+        "residual": "1337.357"
+      }
+    ],
+    "residual_volume": [
+      {
+        "card_type": "Visa",
+        "interchange_level": "Signature Preferred - Card Not Present",
+        "interchange_rate": "240.000000 + 0.100000",
+        "transaction_count": "42",
+        "volume": "1337.357",
+        "merchant_rate": "635.000000 + 0.300000",
+        "gross_revenue": "1337.357",
+        "cost": "1337.357",
+        "split": "42",
+        "residual": "1337.357"
+      }
+    ]
+  }
+]
