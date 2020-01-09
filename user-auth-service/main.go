@@ -28,7 +28,7 @@ func main() {
 
 	repo := &UserRepo{db}
 
-	tokenService := &TokenService{repo}
+	//tokenService := &TokenService{repo}
 
 	// Create a new service. Optionally include some options here.
 	srv := micro.NewService(
@@ -41,7 +41,7 @@ func main() {
 	// Init will parse the command line flags.
 	srv.Init()
 	// Register handler
-	pb.RegisterUserServiceHandler(srv.Server(), &service{repo, tokenService})
+	pb.RegisterUserServiceHandler(srv.Server(), &service{repo})
 
 	// Run the server
 	if err := srv.Run(); err != nil {
